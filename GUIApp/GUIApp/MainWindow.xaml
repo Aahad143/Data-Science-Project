@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GUIApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="From C# to Python" Height="720" Width="1280"
+        Left="128" Top="72">
     <Grid>
-        <TextBlock Text="Hello World" FontSize="50" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBlock Name="hello" Text="Hello World!" FontSize="50" VerticalAlignment="Center" HorizontalAlignment="Center"/>
     </Grid>
 </Window>
